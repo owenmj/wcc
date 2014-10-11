@@ -1,5 +1,5 @@
-name = no-sidebar
-description = No sidebar layout - all Content
+name = No Sidebars
+description = No sidebars layout - all Content
 template=no-sidebar-layout
 engine = phptemplate
 core = 7.x
@@ -11,6 +11,7 @@ regions[navigation]     = Navigation
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
+regions[postscript]     = Postscript
 regions[footer]         = Footer
 
 stylesheets[all][]= css/layouts/no-sidebar/no-sidebar.layout.css

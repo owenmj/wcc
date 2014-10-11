@@ -30,3 +30,13 @@ regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[footer] = Footer
+
+; Layout Settings
+layout[left-sidebar][stylesheets][all][] = css/layouts/left-sidebar/mcorwd-left-sidebar.layout.css
+layout[left-sidebar][stylesheets][all][] = css/layouts/left-sidebar/mcorwd-sidebar.layout.no-query.css
+layout[right-sidebar][stylesheets][all][] = css/layouts/right-sidebar/mcorwd-right-sidebar.layout.css
+layout[right-sidebar][stylesheets][all][] = css/layouts/right-sidebar/mcorwd-right-sidebar.layout.no-query.css
+layout[both-sidebars][stylesheets][all][] = css/layouts/both-sidebars/mcorwd-both-sidebars.layout.css
+layout[right-sidebar][stylesheets][all][] = css/layouts/both-sidebars/mcorwd-both-sidebars.layout.no-query.css
+layout[no-sidebar][stylesheets][all][] = css/layouts/no-sidebar/mcorwd-no-sidebar.layout.css
+layout[no-sidebar][stylesheets][all][] = css/layouts/no-sidebar/mcorwd-no-sidebar.layout.no-query.css

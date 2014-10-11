@@ -29,8 +29,6 @@ RIGHT SIDEBAR
   <div class="l-main">
     <div class="l-content" role="main">
       <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1><?php print $title; ?></h1>
@@ -46,6 +44,7 @@ RIGHT SIDEBAR
       <?php print $feed_icons; ?>
     </div>
 
+    <?php print render($page['postscript']); ?>
     <?php print render($page['sidebar_second']); ?>
     
   </div>
