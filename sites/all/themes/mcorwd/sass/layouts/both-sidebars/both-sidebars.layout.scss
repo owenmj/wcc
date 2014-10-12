@@ -2,6 +2,7 @@
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
+@import "toolkit";
 
 @import "../../variables/**/*";
 @import "../../abstractions/**/*";
@@ -15,11 +16,13 @@ ul.breadcrumb{
 .l-region--sidebar-first{
        display:none;
 }
+
 .l-region--sidebar-second{
        display:none;
 }
 
 .l-page{
+
   margin: 0 auto;
 
   @include breakpoint($tab,true) {
@@ -38,7 +41,6 @@ ul.breadcrumb{
   }
 
   @include breakpoint($desk,true) {
-    width: $desk;
-    
+    width: $desk; 
   }
 }

@@ -1,15 +1,14 @@
 /**
  * $FONT-FACE
  */
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
 @include establish-baseline($base-font-size);
 
 /**
  * $BASE-TYPOGRAPHY
  */
-html {
-  font-family: $pt-sans;
+
+ html {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: $dark-grey;
 }
 
@@ -29,9 +28,9 @@ h3, .gamma,
 h4, .delta,
 h5, .epsilon,
 h6, .zeta {
-  @include rhythm(0, 0, 0, 0.2);;
+  @include rhythm(0, 0, 0, 0.2);
   color: darken($mid-grey, 15%);
-  font-family: $maven-pro;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 
   a,

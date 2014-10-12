@@ -24,11 +24,12 @@ LEFT SIDEBAR
 
     <?php print render($page['header']); ?>
     <?php print render($page['navigation']); ?>
+    <?php print render($page['highlighted']); ?>
   </header>
 
   <div class="l-main">
     <div class="l-content" role="main">
-      <?php print render($page['highlighted']); ?>
+      
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1><?php print $title; ?></h1>

@@ -24,11 +24,12 @@ RIGHT SIDEBAR
 
     <?php print render($page['header']); ?>
     <?php print render($page['navigation']); ?>
+    <?php print render($page['highlighted']); ?>
   </header>
 
   <div class="l-main">
     <div class="l-content" role="main">
-      <?php print render($page['highlighted']); ?>
+      
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1><?php print $title; ?></h1>
@@ -41,10 +42,11 @@ RIGHT SIDEBAR
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+      <?php print render($page['postscript']); ?>
       <?php print $feed_icons; ?>
     </div>
 
-    <?php print render($page['postscript']); ?>
+    
     <?php print render($page['sidebar_second']); ?>
     
   </div>

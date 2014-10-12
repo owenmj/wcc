@@ -1,34 +1,43 @@
 .l-region--navigation{
    background-color: #24435E;
    height: 60px;
-   height: 60px;
    border-radius: 11px;
 }
 
 .region-menu ul{
     float: left;
-    color: #fff;
-}
-ul.menu {
-    border: medium none;
-    list-style: none none none;
-    text-align: left;
-}
-ul.menu li{
-    float:left;
-    margin-left: 1em;
+    color: #000;
 }
 
-ul.menu li a{
-   color:#fff;
+ul.menu {
+    border: medium none;
+    text-align: left;
 }
 
 .menu {
     margin: 0px;
     padding: 0px;
 }
+
 ul {
-    list-style: none outside none;
     font-size: 15px;
     line-height: 1.7;
+}
+
+ul.menu li{
+    float:left;
+    margin-bottom:4px;
+    margin-left: 1em;
+    text-decoration:none;
+}
+
+.main-menu ul.menu li a{
+   color:#fff;
+   text-decoration:none;
+}
+
+
+.menu .leaf{
+  list-style-image: none;
+  list-style-type: none;
 }

@@ -2,46 +2,68 @@
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
+@import "toolkit";
 
 @import "../../variables/**/*";
 @import "../../abstractions/**/*";
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-.l-region--sidebar-second{
-    display:none;
+h1 {
+display:none;
 }
 
-ul.breadcrumb{
+ul.breadcrumb {
   display:none;
 }
 
-.l-page .left-block{
-   margin-left: 20%;
-   margin-top: 8%;
+.l-main {
+  @include clearfix;
 }
 
-.l-page{
-  margin: 0 auto;
-
-  @include breakpoint($tab,true) {
-    width: $tab;   
-  }
-
-  @include breakpoint($desk,true) {
-    width: $desk;
-  }
+.l-content {
+  @include clearfix;
+}
+.l-branding {
+  width:100%;
+  height: 100px;
+  display:block;
 }
 
-@include breakpoint($tab,true){
+.l-region--sidebar-second {
+    display:none;
+}
+
+.field--name-body p {
+margin: 5% 5%;
+}
+
+.footer p {
+   margin: 0% 5%;
+}
+
+@include breakpoint($tab){
+  width: 40em;
+  .l-page {
+      @include clearfix;
+   }
+
   .l-content {
     @include grid-span(8,1);
   }
+
   .l-region--sidebar-second{
     @include grid-span(4,9);
     display:block;
-  }  
+  }
+
+  .field--name-body p {
+      margin: 5% 5%;
+   } 
 }
 
 @include breakpoint($desk,true){  
+   .l-page{
+      @include clearfix;
+   } 
 }
