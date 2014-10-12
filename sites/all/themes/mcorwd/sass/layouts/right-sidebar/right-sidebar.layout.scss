@@ -30,16 +30,41 @@ ul.breadcrumb {
   display:block;
 }
 
+/*
+.l-region--navigation .responsive-menus{
+   display: none;
+}
+*/
+/*
 .l-region--sidebar-second {
     display:none;
 }
+*/
+.l-region--hero {
+  display:none;
+}
 
+.strapline{
+  display:none;
+}
+
+.contact-details{
+      display:none;
+   }
 .field--name-body p {
 margin: 5% 5%;
 }
 
 .footer p {
    margin: 0% 5%;
+}
+
+.free-report-form{
+  display:none;
+}
+
+.call-form{
+   display:block;
 }
 
 @include breakpoint($tab){
@@ -52,9 +77,25 @@ margin: 5% 5%;
     @include grid-span(8,1);
   }
 
+  .l-region--hero{
+      display:block;
+  }
+
+   .strapline{
+      display:block;
+   }
+
+   .contact-details{
+      display:block;
+   }
+
   .l-region--sidebar-second{
     @include grid-span(4,9);
     display:block;
+  }
+  
+  .free-report-form{
+     display:block;
   }
 
   .field--name-body p {

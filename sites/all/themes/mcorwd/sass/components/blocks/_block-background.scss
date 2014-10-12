@@ -86,50 +86,40 @@ p.headline{
   font-weight: bold;
 }
 
-.node-type-landing-page-base .benefits h4 {
+.benefits h4 {
   font-weight: bold;
   font-size: 18px;
 }
 
-.node-type-landing-page-base .benefits p{
+.benefits p{
   font-weight: bold;
   font-size: 16px;
 }
 
-.node-type-landing-page-base .benefits li{
+.benefits li{
   list-style-type: disc;
   font-weight: bold;
   font-size: 16px;
 }
 
-.node-type-landing-page-base .guarantee h4 {
+.guarantee h4 {
   font-weight: bold;
   font-size: 18px;
 }
 
-.node-type-landing-page-base .guarantee p{
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.node-type-landing-page-base .guarantee li{
+.guarantee li{
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
   margin-left:15px;
 }
 
-.node-type-landing-page-base .mcocreative-description h3 {
+.guarantee p{
   font-weight: bold;
-  font-size: 22px;
-  margin-top: -10px;
-}
-
-.node-type-landing-page-base .mcocreative-description p{
   font-size: 16px;
 }
 
-.node-type-landing-page-base .benefits li{
+.benefits li{
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
@@ -138,10 +128,14 @@ p.headline{
 
 .call-form {
     background-color: #001959;
-    width: 300px;
+    /* width: 300px; */
     border-radius: 15px;
-    margin-bottom: 40px;
-    padding-top: 60px;
+    margin-bottom: 1em;
+    padding-top: 2em;
+}
+
+.call-form h2{
+  display:none;
 }
 
 .free-report-form {

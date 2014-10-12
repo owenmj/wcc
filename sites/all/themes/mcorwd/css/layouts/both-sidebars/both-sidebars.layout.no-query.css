@@ -127,6 +127,44 @@ legend {
 .free-report-form h2 {
   display: none; }
 
+/* line 28, ../../../sass/base/_forms.scss */
+.call-form .field--name-body p {
+  margin-top: 0%;
+  color: #fff; }
+
+/* line 33, ../../../sass/base/_forms.scss */
+.l-region--sidebar-second form#webform-client-form-16 input[type="submit"], .l-region--sidebar-second form#webform-client-form-16 input[type="button"], .l-region--sidebar-second form#webform-client-form-16 input[type="reset"] {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 15px;
+  /* width: 270px; */
+  height: 4em;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  margin-left: 15px;
+  background-color: #FF4500;
+  background-image: none; }
+
+/* line 46, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--name {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 51, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--email {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 56, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--phone {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 61, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--message {
+  margin-left: 10%;
+  width: 80%; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -535,100 +573,94 @@ p.headline {
   font-weight: bold; }
 
 /* line 89, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits h4 {
+.benefits h4 {
   font-weight: bold;
   font-size: 18px; }
 
 /* line 94, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits p {
+.benefits p {
   font-weight: bold;
   font-size: 16px; }
 
 /* line 99, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits li {
+.benefits li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 16px; }
 
 /* line 105, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee h4 {
+.guarantee h4 {
   font-weight: bold;
   font-size: 18px; }
 
 /* line 110, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee p {
-  font-weight: bold;
-  font-size: 16px; }
-
-/* line 115, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee li {
+.guarantee li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
   margin-left: 15px; }
 
-/* line 122, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .mcocreative-description h3 {
+/* line 117, ../../../sass/components/blocks/_block-background.scss */
+.guarantee p {
   font-weight: bold;
-  font-size: 22px;
-  margin-top: -10px; }
-
-/* line 128, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .mcocreative-description p {
   font-size: 16px; }
 
-/* line 132, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits li {
+/* line 122, ../../../sass/components/blocks/_block-background.scss */
+.benefits li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
   margin-left: 10px; }
 
-/* line 139, ../../../sass/components/blocks/_block-background.scss */
+/* line 129, ../../../sass/components/blocks/_block-background.scss */
 .call-form {
   background-color: #001959;
-  width: 300px;
+  /* width: 300px; */
   border-radius: 15px;
-  margin-bottom: 40px;
-  padding-top: 60px; }
+  margin-bottom: 1em;
+  padding-top: 2em; }
 
-/* line 147, ../../../sass/components/blocks/_block-background.scss */
+/* line 137, ../../../sass/components/blocks/_block-background.scss */
+.call-form h2 {
+  display: none; }
+
+/* line 141, ../../../sass/components/blocks/_block-background.scss */
 .free-report-form {
   background-color: #001959;
   border-radius: 15px; }
 
-/* line 152, ../../../sass/components/blocks/_block-background.scss */
+/* line 146, ../../../sass/components/blocks/_block-background.scss */
 .company-details {
   margin-top: 12px;
   margin-left: 10px;
   float: left;
   display: inline-block; }
 
-/* line 159, ../../../sass/components/blocks/_block-background.scss */
+/* line 153, ../../../sass/components/blocks/_block-background.scss */
 .company-details p {
   margin-bottom: 1px;
   font-size: 10.5px;
   text-align: left; }
 
-/* line 165, ../../../sass/components/blocks/_block-background.scss */
+/* line 159, ../../../sass/components/blocks/_block-background.scss */
 .social-media {
   width: 150px;
   margin-left: 150px;
   float: left; }
 
-/* line 171, ../../../sass/components/blocks/_block-background.scss */
+/* line 165, ../../../sass/components/blocks/_block-background.scss */
 .footer-user-menu ul.menu li a {
   color: #000; }
 
-/* line 175, ../../../sass/components/blocks/_block-background.scss */
+/* line 169, ../../../sass/components/blocks/_block-background.scss */
 .l-region--navigation {
   margin-top: 20px; }
 
-/* line 179, ../../../sass/components/blocks/_block-background.scss */
+/* line 173, ../../../sass/components/blocks/_block-background.scss */
 .l-region--highlighted {
   margin-top: 10px; }
 
-/* line 183, ../../../sass/components/blocks/_block-background.scss */
+/* line 177, ../../../sass/components/blocks/_block-background.scss */
 .social-media .views-row {
   float: left;
   margin-top: 10px;
@@ -1357,6 +1389,44 @@ legend {
 .free-report-form h2 {
   display: none; }
 
+/* line 28, ../../../sass/base/_forms.scss */
+.call-form .field--name-body p {
+  margin-top: 0%;
+  color: #fff; }
+
+/* line 33, ../../../sass/base/_forms.scss */
+.l-region--sidebar-second form#webform-client-form-16 input[type="submit"], .l-region--sidebar-second form#webform-client-form-16 input[type="button"], .l-region--sidebar-second form#webform-client-form-16 input[type="reset"] {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 15px;
+  /* width: 270px; */
+  height: 4em;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  margin-left: 15px;
+  background-color: #FF4500;
+  background-image: none; }
+
+/* line 46, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--name {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 51, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--email {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 56, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--phone {
+  margin-left: 10%;
+  width: 80%; }
+
+/* line 61, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .webform-component--message {
+  margin-left: 10%;
+  width: 80%; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -1765,100 +1835,94 @@ p.headline {
   font-weight: bold; }
 
 /* line 89, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits h4 {
+.benefits h4 {
   font-weight: bold;
   font-size: 18px; }
 
 /* line 94, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits p {
+.benefits p {
   font-weight: bold;
   font-size: 16px; }
 
 /* line 99, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits li {
+.benefits li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 16px; }
 
 /* line 105, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee h4 {
+.guarantee h4 {
   font-weight: bold;
   font-size: 18px; }
 
 /* line 110, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee p {
-  font-weight: bold;
-  font-size: 16px; }
-
-/* line 115, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .guarantee li {
+.guarantee li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
   margin-left: 15px; }
 
-/* line 122, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .mcocreative-description h3 {
+/* line 117, ../../../sass/components/blocks/_block-background.scss */
+.guarantee p {
   font-weight: bold;
-  font-size: 22px;
-  margin-top: -10px; }
-
-/* line 128, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .mcocreative-description p {
   font-size: 16px; }
 
-/* line 132, ../../../sass/components/blocks/_block-background.scss */
-.node-type-landing-page-base .benefits li {
+/* line 122, ../../../sass/components/blocks/_block-background.scss */
+.benefits li {
   list-style-type: disc;
   font-weight: bold;
   font-size: 14px;
   margin-left: 10px; }
 
-/* line 139, ../../../sass/components/blocks/_block-background.scss */
+/* line 129, ../../../sass/components/blocks/_block-background.scss */
 .call-form {
   background-color: #001959;
-  width: 300px;
+  /* width: 300px; */
   border-radius: 15px;
-  margin-bottom: 40px;
-  padding-top: 60px; }
+  margin-bottom: 1em;
+  padding-top: 2em; }
 
-/* line 147, ../../../sass/components/blocks/_block-background.scss */
+/* line 137, ../../../sass/components/blocks/_block-background.scss */
+.call-form h2 {
+  display: none; }
+
+/* line 141, ../../../sass/components/blocks/_block-background.scss */
 .free-report-form {
   background-color: #001959;
   border-radius: 15px; }
 
-/* line 152, ../../../sass/components/blocks/_block-background.scss */
+/* line 146, ../../../sass/components/blocks/_block-background.scss */
 .company-details {
   margin-top: 12px;
   margin-left: 10px;
   float: left;
   display: inline-block; }
 
-/* line 159, ../../../sass/components/blocks/_block-background.scss */
+/* line 153, ../../../sass/components/blocks/_block-background.scss */
 .company-details p {
   margin-bottom: 1px;
   font-size: 10.5px;
   text-align: left; }
 
-/* line 165, ../../../sass/components/blocks/_block-background.scss */
+/* line 159, ../../../sass/components/blocks/_block-background.scss */
 .social-media {
   width: 150px;
   margin-left: 150px;
   float: left; }
 
-/* line 171, ../../../sass/components/blocks/_block-background.scss */
+/* line 165, ../../../sass/components/blocks/_block-background.scss */
 .footer-user-menu ul.menu li a {
   color: #000; }
 
-/* line 175, ../../../sass/components/blocks/_block-background.scss */
+/* line 169, ../../../sass/components/blocks/_block-background.scss */
 .l-region--navigation {
   margin-top: 20px; }
 
-/* line 179, ../../../sass/components/blocks/_block-background.scss */
+/* line 173, ../../../sass/components/blocks/_block-background.scss */
 .l-region--highlighted {
   margin-top: 10px; }
 
-/* line 183, ../../../sass/components/blocks/_block-background.scss */
+/* line 177, ../../../sass/components/blocks/_block-background.scss */
 .social-media .views-row {
   float: left;
   margin-top: 10px;

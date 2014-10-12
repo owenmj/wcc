@@ -24,3 +24,41 @@ legend {
 .free-report-form h2 {
   display:none;
 }
+
+.call-form .field--name-body p {
+    margin-top: 0%;
+    color:#fff;
+}
+
+.l-region--sidebar-second form#webform-client-form-16 input[type="submit"], .l-region--sidebar-second form#webform-client-form-16 input[type="button"], .l-region--sidebar-second form#webform-client-form-16 input[type="reset"] {
+   color: #FFF;
+   text-shadow: none;
+   font-size: 15px;
+   /* width: 270px; */
+   height: 4em;
+   margin-top: 1em;
+   margin-bottom: 4em;
+   margin-left: 15px;
+   background-color: #FF4500;
+   background-image: none;
+}
+
+form#webform-client-form-16 .webform-component--name{
+    margin-left:10%;
+    width: 80%;
+}
+
+form#webform-client-form-16 .webform-component--email{
+    margin-left:10%;
+    width: 80%;
+}
+
+form#webform-client-form-16 .webform-component--phone{
+    margin-left:10%;
+    width: 80%;
+}
+
+form#webform-client-form-16 .webform-component--message{
+    margin-left:10%;
+    width: 80%;
+}

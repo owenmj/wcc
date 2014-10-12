@@ -22,7 +22,7 @@ scripts[] = js/mcorwd.behaviors.js
 ; Regions
 ; ========================================
 regions[branding] = Branding
-regions[header] = Header
+regions[hero] = Hero
 regions[navigation] = Navigation
 regions[banner]			= Banner
 regions[highlighted] = Highlighted
