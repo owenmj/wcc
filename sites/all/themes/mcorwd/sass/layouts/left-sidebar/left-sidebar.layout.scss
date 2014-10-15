@@ -8,6 +8,14 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
+h1{
+  font-size:2em;
+}
+
+.contact-details{
+   display:none;
+}
+
 ul.breadcrumb{
   display:none;
 }
@@ -33,6 +41,10 @@ ul.breadcrumb{
 }
 
 @include breakpoint($tab,true){
+  .contact-details{
+      display:block;
+   }
+
   .l-region--sidebar-first{
     @include grid-span(5,1);
     display:block;

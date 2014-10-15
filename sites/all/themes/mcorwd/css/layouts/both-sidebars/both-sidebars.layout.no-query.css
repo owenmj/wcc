@@ -165,6 +165,10 @@ form#webform-client-form-16 .webform-component--message {
   margin-left: 10%;
   width: 80%; }
 
+/* line 66, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .form-actions input[type='submit'] {
+  margin: 0 auto; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -1427,6 +1431,10 @@ form#webform-client-form-16 .webform-component--message {
   margin-left: 10%;
   width: 80%; }
 
+/* line 66, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .form-actions input[type='submit'] {
+  margin: 0 auto; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -2553,19 +2561,34 @@ ul.breadcrumb {
   display: none; }
 
 /* line 16, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 20, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
 .l-region--sidebar-first {
   display: none; }
 
-/* line 20, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+/* line 24, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
 .l-region--sidebar-second {
   display: none; }
 
-/* line 24, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+/* line 28, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+.contact-details {
+  display: none; }
+
+/* line 32, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+.l-region--navigation {
+  background-color: #ffffff; }
+
+/* line 36, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
 .l-page {
   margin: 0 auto;
   width: 44em;
   width: 70em; }
-  /* line 30, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+  /* line 43, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+  .l-page .contact-details {
+    display: block; }
+  /* line 46, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
   .l-page .l-region--sidebar-first {
     width: 23.40426%;
     float: left;
@@ -2573,14 +2596,14 @@ ul.breadcrumb {
     margin-left: 0%;
     clear: none;
     display: block; }
-  /* line 34, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+  /* line 50, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
   .l-page .l-content {
     width: 40.42553%;
     float: left;
     margin-right: -100%;
     margin-left: 25.53191%;
     clear: none; }
-  /* line 37, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+  /* line 53, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
   .l-page .l-region--sidebar-second {
     width: 23.40426%;
     float: right;
@@ -2588,3 +2611,6 @@ ul.breadcrumb {
     margin-right: 0;
     clear: none;
     display: block; }
+  /* line 57, ../../../sass/layouts/both-sidebars/both-sidebars.layout.scss */
+  .l-page h1 {
+    display: none; }

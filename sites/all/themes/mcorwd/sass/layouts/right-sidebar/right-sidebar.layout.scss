@@ -9,8 +9,8 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
-h1 {
-display:none;
+front h1 {
+  display:none;
 }
 
 ul.breadcrumb {
@@ -24,6 +24,7 @@ ul.breadcrumb {
 .l-content {
   @include clearfix;
 }
+
 .l-branding {
   width:100%;
   height: 100px;

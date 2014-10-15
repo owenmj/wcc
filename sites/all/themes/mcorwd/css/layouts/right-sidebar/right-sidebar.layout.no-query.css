@@ -165,6 +165,10 @@ form#webform-client-form-16 .webform-component--message {
   margin-left: 10%;
   width: 80%; }
 
+/* line 66, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .form-actions input[type='submit'] {
+  margin: 0 auto; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -1427,6 +1431,10 @@ form#webform-client-form-16 .webform-component--message {
   margin-left: 10%;
   width: 80%; }
 
+/* line 66, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .form-actions input[type='submit'] {
+  margin: 0 auto; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -2588,11 +2596,15 @@ ul.breadcrumb {
   .l-content:after {
     clear: both; }
 
-/* line 27, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 28, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-branding {
   width: 100%;
   height: 100px;
   display: block; }
+
+/* line 33, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+.contact-details {
+  display: none; }
 
 /*
 .l-region--navigation .responsive-menus{
@@ -2604,35 +2616,35 @@ ul.breadcrumb {
     display:none;
 }
 */
-/* line 43, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 47, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-region--hero {
   display: none; }
 
-/* line 47, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 51, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .strapline {
   display: none; }
 
-/* line 51, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 55, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .contact-details {
   display: none; }
 
-/* line 54, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 58, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .field--name-body p {
   margin: 5% 5%; }
 
-/* line 58, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 62, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .footer p {
   margin: 0% 5%; }
 
-/* line 62, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 66, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .free-report-form {
   display: none; }
 
-/* line 66, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 70, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .call-form {
   display: block; }
 
-/* line 107, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
+/* line 111, ../../../sass/layouts/right-sidebar/right-sidebar.layout.scss */
 .l-page {
   /* for IE 6/7 */
   *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");

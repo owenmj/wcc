@@ -13,6 +13,10 @@ ul.breadcrumb{
   display:none;
 }
 
+h1{
+  font-size:2em;
+}
+
 .l-region--sidebar-first{
        display:none;
 }
@@ -21,12 +25,24 @@ ul.breadcrumb{
        display:none;
 }
 
+.contact-details{
+   display:none;
+}
+
+.l-region--navigation{
+   background-color: #ffffff;
+}
+
 .l-page{
 
   margin: 0 auto;
 
   @include breakpoint($tab,true) {
     width: $tab;
+
+    .contact-details{
+      display:block;
+   }
     .l-region--sidebar-first{
        @include grid-span(3,1);
        display:block;
@@ -37,6 +53,9 @@ ul.breadcrumb{
     .l-region--sidebar-second{
        @include grid-span(3,10);
        display:block;
+    }
+    h1 {
+        display:none;
     }
   }
 

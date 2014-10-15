@@ -9,6 +9,14 @@
 @import "../../base/**/*";
 @import "../../components/**/*";
 
+h1{
+  font-size:2em;
+}
+
+.contact-details{
+   display:none;
+}
+
 .l-page{
   margin: 0 auto;
 
@@ -24,6 +32,9 @@
 @include breakpoint($tab,true){
   .l-content {
     @include grid-span(12,1)
+    .contact-details{
+      display:block;
+   }
   }
 }
 

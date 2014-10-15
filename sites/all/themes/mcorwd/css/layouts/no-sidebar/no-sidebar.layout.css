@@ -164,6 +164,10 @@ form#webform-client-form-16 .webform-component--message {
   margin-left: 10%;
   width: 80%; }
 
+/* line 66, ../../../sass/base/_forms.scss */
+form#webform-client-form-16 .form-actions input[type='submit'] {
+  margin: 0 auto; }
+
 /* line 1, ../../../sass/base/_media.scss */
 img, media {
   max-width: 100%;
@@ -1287,19 +1291,23 @@ ul.menu li {
   margin-bottom: 18px; }
 
 /* line 12, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+.contact-details {
+  display: none; }
+
+/* line 16, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
 .l-page {
   margin: 0 auto; }
   @media (min-width: 44em) {
-    /* line 12, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+    /* line 16, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
     .l-page {
       width: 44em; } }
   @media (min-width: 70em) {
-    /* line 12, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+    /* line 16, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
     .l-page {
       width: 70em; } }
 
 @media (min-width: 44em) {
-  /* line 25, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+  /* line 29, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
   .l-content {
     width: 100%;
     float: right;
@@ -1307,7 +1315,7 @@ ul.menu li {
     margin-right: 0;
     clear: none; } }
 @media (min-width: 70em) {
-  /* line 32, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
+  /* line 36, ../../../sass/layouts/no-sidebar/no-sidebar.layout.scss */
   .l-content {
     width: 100%;
     float: right;

@@ -6,7 +6,7 @@ core = 7.x
 
 ; Regions
 regions[branding]       = Branding
-regions[header]         = Header
+regions[hero]           = Hero
 regions[navigation]     = Navigation
 regions[highlighted]    = Highlighted
 regions[help]           = Help
