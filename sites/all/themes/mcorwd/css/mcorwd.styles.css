@@ -165,8 +165,104 @@ form#webform-client-form-16 .webform-component--message {
   width: 80%; }
 
 /* line 66, ../sass/base/_forms.scss */
-form#webform-client-form-16 .form-actions input[type='submit'] {
-  margin: 0 auto; }
+.call-form form#webform-client-form-16 {
+  margin: 0 10%; }
+
+/* line 70, ../sass/base/_forms.scss */
+input[type='submit'] {
+  margin-left: auto; }
+
+/* form 31 */
+/* line 76, ../sass/base/_forms.scss */
+.free-report-form {
+  height: 12em; }
+
+/* line 80, ../sass/base/_forms.scss */
+form#webform-client-form-31 .webform-component--name {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 85, ../sass/base/_forms.scss */
+form#webform-client-form-31 .webform-component--email {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 90, ../sass/base/_forms.scss */
+form#webform-client-form-31 .webform-component--phone {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 95, ../sass/base/_forms.scss */
+form#webform-client-form-31 .webform-component--message {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 100, ../sass/base/_forms.scss */
+.call-form form#webform-client-form-31 {
+  margin: 0 5%; }
+
+/* line 104, ../sass/base/_forms.scss */
+input[type='submit'] {
+  margin-left: auto; }
+
+/* line 108, ../sass/base/_forms.scss */
+form#webform-client-form-31 input[type="submit"] {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 15px;
+  background-color: #FF4500;
+  background-image: none;
+  border-radius: 11px;
+  float: right;
+  width: 270px;
+  height: 80px;
+  margin: -120px 15px 20px; }
+
+/* form 14 */
+/* line 123, ../sass/base/_forms.scss */
+.contact-us {
+  height: 12em; }
+
+/* line 127, ../sass/base/_forms.scss */
+form#webform-client-form-14 .webform-component--name {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 132, ../sass/base/_forms.scss */
+form#webform-client-form-14 .webform-component--email {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 137, ../sass/base/_forms.scss */
+form#webform-client-form-14 .webform-component--phone {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 142, ../sass/base/_forms.scss */
+form#webform-client-form-14 .webform-component--message {
+  margin-left: 5%;
+  width: 50%; }
+
+/* line 147, ../sass/base/_forms.scss */
+.call-form form#webform-client-form-14 {
+  margin: 0 5%; }
+
+/* line 151, ../sass/base/_forms.scss */
+input[type='submit'] {
+  margin-left: auto; }
+
+/* line 155, ../sass/base/_forms.scss */
+form#webform-client-form-14 input[type="submit"] {
+  color: #FFF;
+  text-shadow: none;
+  font-size: 15px;
+  background-color: #FF4500;
+  background-image: none;
+  border-radius: 11px;
+  float: right;
+  width: 220px;
+  height: 80px;
+  margin: -120px 15px 20px; }
 
 /* line 1, ../sass/base/_media.scss */
 img, media {
@@ -669,6 +765,43 @@ p.headline {
   margin-top: 10px;
   margin-left: 20px; }
 
+/* line 183, ../sass/components/blocks/_block-background.scss */
+.testimonials-sample .views-row {
+  float: left;
+  margin-left: 0px;
+  margin-bottom: 28px; }
+
+/* line 189, ../sass/components/blocks/_block-background.scss */
+.ten-top-tips-text-right {
+  background-image: url("../../../images/arrow-right.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 230px;
+  height: 235px;
+  float: left;
+  margin-top: 15px; }
+
+/* line 199, ../sass/components/blocks/_block-background.scss */
+.ten-top-tips-text-right p {
+  color: #fff; }
+
+/* line 203, ../sass/components/blocks/_block-background.scss */
+.arrow-down-text {
+  background-image: url("../../../images/arrow-down.png");
+  background-repeat: no-repeat;
+  float: right;
+  /* width: 221px; */
+  margin-top: 0px;
+  height: 140px; }
+
+/* line 212, ../sass/components/blocks/_block-background.scss */
+.arrow-down-text p {
+  color: #fff; }
+
+/* line 216, ../sass/components/blocks/_block-background.scss */
+.chris-photo {
+  margin-top: 20em; }
+
 /**
  * $USER-MENU
  */
@@ -1007,6 +1140,14 @@ ul.menu li {
 .menu .leaf {
   list-style-image: none;
   list-style-type: none; }
+
+/* line 45, ../sass/components/menus/_menu.scss */
+.footer-user-menu li {
+  float: right; }
+
+/* line 48, ../sass/components/menus/_menu.scss */
+.footer-user-menu ul li a {
+  font-size: 12px; }
 
 /* line 2, ../sass/components/menus/superfish/_superfish.scss */
 .l-region--navigation {

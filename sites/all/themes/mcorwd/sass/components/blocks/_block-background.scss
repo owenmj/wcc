@@ -179,3 +179,40 @@ p.headline{
     margin-top: 10px;
     margin-left: 20px;
 }
+
+.testimonials-sample .views-row {
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 28px;
+}
+
+.ten-top-tips-text-right {
+    background-image: url('../../../images/arrow-right.png');
+background-repeat: no-repeat;
+display: block;
+width: 230px;
+height: 235px;
+float: left;
+margin-top: 15px;
+}
+
+.ten-top-tips-text-right p{
+  color:#fff;
+}
+
+.arrow-down-text {
+    background-image: url('../../../images/arrow-down.png');
+    background-repeat: no-repeat;
+    float: right;
+    /* width: 221px; */
+    margin-top: 0px;
+    height: 140px;
+}
+
+.arrow-down-text p{
+  color: #fff;
+}
+
+.chris-photo {
+  margin-top: 20em;
+}

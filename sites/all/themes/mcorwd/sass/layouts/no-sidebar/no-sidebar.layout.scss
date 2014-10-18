@@ -31,7 +31,8 @@ h1{
 
 @include breakpoint($tab,true){
   .l-content {
-    @include grid-span(12,1)
+    @include grid-span(12,1);
+    
     .contact-details{
       display:block;
    }
