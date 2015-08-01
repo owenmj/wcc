@@ -215,8 +215,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'mcorwd',
-      'username' => 'mcorwd',
+      'database' => 'wcc',
+      'username' => 'wcc',
       'password' => 'pass',
       'host' => 'localhost',
       'port' => '',

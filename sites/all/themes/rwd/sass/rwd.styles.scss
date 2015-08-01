@@ -1,0 +1,72 @@
+@import "compass/css3/deprecated-support";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+h1 {
+  display: none; 
+}
+
+.menu .leaf {
+  list-style-type: none;
+  list-style-image: none; 
+}
+
+.l-region--navigation {
+  background-color: #fce7ca; 
+  padding-bottom: 0.5em;
+}
+
+.menu{
+    margin:0;
+    padding:0 0.5em;
+    text-align:center;
+}
+
+.menu li {
+  text-decoration: none;
+  font-size: 1em; 
+  display:inline;
+}
+
+.menu a:link{
+  /* display:inline-block; */
+  padding:5px;
+  color:#3e85c6;
+  text-decoration: none;
+  padding:5px;
+  border-bottom: 2px solid #3e85c6;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+}
+
+.menu a:active{
+  display:inline-block;
+  padding:5px;
+  color:#f68cf9;
+}
+
+.menu a:hover:after{
+  content: "";
+    display:inline-block;
+    padding:5px;
+    color:#f68cf9;
+    border-bottom: 2px solid #f68cf9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    
+}
+
+
+
+
+

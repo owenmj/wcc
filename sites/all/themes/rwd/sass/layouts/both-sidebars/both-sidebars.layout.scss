@@ -1,0 +1,78 @@
+
+@import "compass/css3/deprecated-support";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/**/*";
+@import "../../abstractions/**/*";
+@import "../../base/**/*";
+@import "../../components/**/*";
+
+ul.breadcrumb{
+  display:none;
+}
+
+h2{
+  font-size:2em;
+}
+
+.l-region--sidebar-first{
+       display:none;
+}
+
+.l-region--sidebar-second{
+       display:none;
+}
+
+.contact-details{
+   display:none;
+}
+
+.l-page{
+
+  margin: 0 auto;
+
+  @include breakpoint($tab,true) {
+    width: $tab;
+
+    .contact-details{
+      display:block;
+   }
+
+    .l-region--sidebar-first{
+       @include grid-span(6,1);
+       display:block;
+    }
+
+    .l-main{
+       margin-top: 10px;
+    }
+
+    .l-content{
+       @include grid-span(5,4);
+    }
+
+    .l-region--sidebar-second{
+       @include grid-span(6,7);
+       display:block;
+    }
+
+    .l-region--postscript{
+       @include grid-span(12,1);
+       display:block;
+    }
+    
+    h1,h2 {
+        display:none;
+    }
+
+    .l-region--navigation { 
+       background-color: #24435e;
+  }
+
+  @include breakpoint($desk){
+    width: $desk; 
+  }
+}
+}

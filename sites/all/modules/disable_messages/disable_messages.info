@@ -1,0 +1,15 @@
+name = Disable messages
+description = Add options to filter messages shown to the end users
+core = 7.x
+
+configure = admin/config/development/disable-messages
+
+files[] = disable_messages.module
+
+
+; Information added by drupal.org packaging script on 2011-09-04
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "disable_messages"
+datestamp = "1315138358"
+

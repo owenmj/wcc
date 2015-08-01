@@ -1,0 +1,99 @@
+/* No files to import found in ../../abstractions/**\/* */
+/* line 1, ../../../sass/base/_lists.scss */
+.menu .leaf {
+  list-style-type: none;
+  list-style-image: none; }
+
+/* line 1, ../../../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 1, ../../../sass/base/_typography.scss */
+p, pre {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+/* line 6, ../../../sass/base/_typography.scss */
+h3 {
+  font-size: 0.83em;
+  margin: 2.5em 2% 0em; }
+
+/* line 11, ../../../sass/base/_typography.scss */
+.node__content h3 {
+  margin: 2.5em 2% 0em;
+  color: #9f5d41; }
+
+/* line 16, ../../../sass/base/_typography.scss */
+.page-node-35 .node__content h3 {
+  margin: 2.5em 2% 1em;
+  color: #000; }
+
+/* line 21, ../../../sass/base/_typography.scss */
+.map h3 {
+  font-size: 1.2em;
+  text-align: center;
+  color: #9f5d41;
+  margin-bottom: 1em; }
+
+/* line 11, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+ul.breadcrumb {
+  display: none; }
+
+/* line 15, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+.l-page .left-block {
+  margin-left: 20%;
+  margin-top: 8%; }
+
+/* line 21, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+.l-page {
+  margin: 0 auto; }
+  @media (min-width: 44em) {
+    /* line 21, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+    .l-page {
+      width: 44em; } }
+  @media (min-width: 70em) {
+    /* line 21, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+    .l-page {
+      width: 70em; } }
+
+@media (min-width: 44em) {
+  /* line 36, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+  .contact-details {
+    display: block; }
+
+  /* line 40, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+  .l-region--sidebar-first {
+    width: 40.42553%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    display: block; }
+
+  /* line 45, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+  .l-content {
+    width: 57.44681%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    margin-right: -3%; } }
+@media (min-width: 70em) {
+  /* line 54, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+  .l-region--sidebar-first {
+    width: 40.42553%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+  /* line 59, ../../../sass/layouts/left-sidebar/left-sidebar.layout.scss */
+  .l-content {
+    width: 57.44681%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    margin-right: -3%; } }
+
+/*# sourceMappingURL=left-sidebar.layout.css.map */

@@ -1,0 +1,12 @@
+name = Paste Format
+description = Run pasted text through configured Text Format.
+package = User interface
+core = 7.x
+configure = admin/config/content/pasteformat
+
+; Information added by drupal.org packaging script on 2012-10-11
+version = "7.x-1.4+0-dev"
+core = "7.x"
+project = "pasteformat"
+datestamp = "1349916617"
+
